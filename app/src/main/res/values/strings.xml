@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlbumSearch</string>
+    <string name="search_by_artist">Search Album by Artist</string>
+    <string name="search_by_album">Search Album by Album</string>
+    <string name="no_albums">There are no albums present</string>
+    <string name="no_internet">There is no internet connection</string>
+</resources>
