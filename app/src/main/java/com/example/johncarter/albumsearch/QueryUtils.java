@@ -116,7 +116,6 @@ public class QueryUtils {
         }
 
         ArrayList<album> albums = new ArrayList<>();
-        Log.d("charles",albumJson);
 
        try{
                 JSONObject baseJsonResponse = new JSONObject(albumJson);
@@ -146,7 +145,6 @@ public class QueryUtils {
         }
 
         ArrayList<album> albums = new ArrayList<>();
-        Log.d("charles",albumJson);
         try{
             JSONObject baseJsonResponse = new JSONObject(albumJson);
             JSONObject albumArray = baseJsonResponse.getJSONObject("results");
